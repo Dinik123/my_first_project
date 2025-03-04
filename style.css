@@ -1,4 +1,19 @@
-p {
-    color: blue;
-    font-size: 28px;
+body {
+    background-color: #000000;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://algoritmikaclub.github.io/frontend/img/30-forest.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+span {
+    animation: multi-color 2s linear infinite;
+    text-shadow: 0 0 3px #ffffff;
+}
+@keyframes multi-color {
+    from {filter: hue-rotate(0)}
+    to {filter: hue-rotate(360deg)}
 }
